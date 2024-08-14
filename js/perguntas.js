@@ -4,11 +4,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
+                afirmacao:[
+                    "Ficou com medo."
+                ],
               
                 proxima: 1,
             },
             {
                 texto: "Isso é maravilhoso!",
+                afirmacao:[
+                    "Quis saber como iria funcionar."
+                ],
                
                 proxima: 2,
             },
@@ -19,11 +25,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Verificar se a pessoa está respirando e tem pulso.",
+                afirmacao:[
+                    "Aqui percebemos que a pessoa sabe o basico."
+                ],
                 
                 proxima: 3,
             },
             {
                 texto: "Só ficar olhando.",
+                afirmacao:[
+                    "Aqui percebemos que a pessoa não tem coração."
+                ],
                
                 proxima: 4,
             },
@@ -34,11 +46,18 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Aplicar compressas quentes no pescoço da criança.",
+                afirmacao:[
+                "Tem que estudar mais."
+
+                ],
                
                 proxima: 3,
             },
             {
                 texto: "Colocar os braços ao redor da cintura, posicionar um punho acima do umbigo e realizar compresões rápidas.",
+                afirmacao:[
+                    "Está indo pelo caminho certo."
+                ],
                 
                 proxima: 4,
             },
@@ -49,11 +68,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Garantir que o ambiente ao redor esteja seguro e monitorar a pessoa até que a convulção termine.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 5,
             },
             {
                 texto: "Colocar um objeto na boca da pessoa para evitar que ela morda a língua.",
+                afirmacao:[
+                    ""
+                ],
                
                 proxima: 6,
             },
@@ -64,11 +89,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Aplicar uma bandagem limpa diretamente sobre a ferida e pressionar firmemente.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 5,
             },
             {
                 texto: "Lavar com água fria.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 6,
             },
@@ -79,11 +110,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Manter a pessoa em pé até a ajuda chegar.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 7,
             },
             {
                 texto: "Colocar a pessoa de lado, dobrar a perna superior e apoiar o braço superior sobre a perna.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 7,
             },
@@ -94,11 +131,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Dar analgésicos sem orientação médica.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 7,
             },
             {
                 texto: "Imobilizar a área afetada e evitar movimentar a parte fraturada.",
+                afirmacao:[
+                    ""
+                ],
                 
                 proxima: 7,
             },
@@ -109,10 +152,16 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Forçá-la a comer algo doce.",
+                afirmacao:[
+                    ""
+                ]
                
             },
             {
                 texto: "Manter a pessoa deitada, elevar as pernas e cobri-la para manter o calor.",
+                afirmacao:[
+                    ""
+                ]
                 
             },
         ]
